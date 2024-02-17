@@ -1,0 +1,201 @@
+{
+    "data": [
+      {
+        "blood_pressure_data": {
+          "blood_pressure_samples": []
+        },
+        "device_data": {
+          "activation_timestamp": null,
+          "hardware_version": null,
+          "manufacturer": null,
+          "name": null,
+          "other_devices": [],
+          "sensor_state": null,
+          "serial_number": null,
+          "software_version": null
+        },
+        "glucose_data": {
+          "blood_glucose_samples": [],
+          "daily_patterns": [],
+          "day_avg_blood_glucose_mg_per_dL": null,
+          "detailed_blood_glucose_samples": [],
+          "gmi": null,
+          "sensor_usage": null,
+          "time_in_range": null
+        },
+        "heart_data": {
+          "afib_classification_samples": [],
+          "ecg_signal": [],
+          "heart_rate_data": {
+            "detailed": {
+              "hr_samples": [],
+              "hrv_samples_rmssd": [],
+              "hrv_samples_sdnn": []
+            },
+            "summary": {
+              "avg_hr_bpm": null,
+              "avg_hrv_rmssd": null,
+              "avg_hrv_sdnn": null,
+              "hr_zone_data": [],
+              "max_hr_bpm": null,
+              "min_hr_bpm": null,
+              "resting_hr_bpm": null,
+              "user_max_hr_bpm": null
+            }
+          },
+          "pulse_wave_velocity_samples": [],
+          "rr_interval_samples": []
+        },
+        "hydration_data": {
+          "day_total_water_consumption_ml": null,
+          "hydration_amount_samples": []
+        },
+        "ketone_data": {
+          "ketone_samples": []
+        },
+        "measurements_data": {
+          "measurements": [
+            {
+              "BMI": 25.972305613679943,
+              "BMR": 904,
+              "RMR": 887,
+              "bodyfat_percentage": 19.95783181360642,
+              "bone_mass_g": 10.771639966906562,
+              "estimated_fitness_age": 70,
+              "height_cm": 183.6979617347304,
+              "insulin_type": "rapid-acting",
+              "insulin_units": 993.9769637011258,
+              "lean_mass_g": 20.43964942514669,
+              "measurement_time": "2024-02-17T22:01:07.838000+00:00",
+              "muscle_mass_g": 23.64291906009761,
+              "skin_fold_mm": 28.624024592358776,
+              "urine_color": null,
+              "user_notes": null,
+              "water_percentage": 20.325550472432408,
+              "weight_kg": 66.59001207420788
+            },
+            {
+              "BMI": 21.144411896532716,
+              "BMR": 1354,
+              "RMR": 1307,
+              "bodyfat_percentage": 66.06943201809486,
+              "bone_mass_g": 18.895598658759265,
+              "estimated_fitness_age": 66,
+              "height_cm": 171.09572396809972,
+              "insulin_type": "rapid-acting",
+              "insulin_units": 1210.651997584488,
+              "lean_mass_g": 31.772544703432793,
+              "measurement_time": "2024-02-17T22:07:07.838000+00:00",
+              "muscle_mass_g": 49.08288226468614,
+              "skin_fold_mm": 94.55707205062153,
+              "urine_color": null,
+              "user_notes": null,
+              "water_percentage": 64.02939233364367,
+              "weight_kg": 54.63840286443683
+            },
+            {
+              "BMI": 26.395378839002557,
+              "BMR": 1561,
+              "RMR": 1383,
+              "bodyfat_percentage": 45.228827384318,
+              "bone_mass_g": 22.480512902278132,
+              "estimated_fitness_age": 18,
+              "height_cm": 157.21958544923433,
+              "insulin_type": "rapid-acting",
+              "insulin_units": 1635.7373661876256,
+              "lean_mass_g": 20.47163163181926,
+              "measurement_time": "2024-02-17T22:13:07.838000+00:00",
+              "muscle_mass_g": 35.65426769566477,
+              "skin_fold_mm": 56.539607727036255,
+              "urine_color": null,
+              "user_notes": null,
+              "water_percentage": 5.933566327576267,
+              "weight_kg": 73.57215751914588
+            },
+            {
+              "BMI": 21.038244815991025,
+              "BMR": 1589,
+              "RMR": 861,
+              "bodyfat_percentage": 64.94235816787295,
+              "bone_mass_g": 24.879054778448864,
+              "estimated_fitness_age": 28,
+              "height_cm": 169.0026730865511,
+              "insulin_type": "rapid-acting",
+              "insulin_units": 926.8591679385562,
+              "lean_mass_g": 26.420971719572307,
+              "measurement_time": "2024-02-17T22:19:07.838000+00:00",
+              "muscle_mass_g": 47.84680244432966,
+              "skin_fold_mm": 45.24527110546136,
+              "urine_color": null,
+              "user_notes": null,
+              "water_percentage": 52.34060990235852,
+              "weight_kg": 46.94524922054506
+            },
+            {
+              "BMI": 22.201083570002663,
+              "BMR": 1275,
+              "RMR": 2033,
+              "bodyfat_percentage": 4.110959989401664,
+              "bone_mass_g": 28.847496468734178,
+              "estimated_fitness_age": 81,
+              "height_cm": 167.23312061729973,
+              "insulin_type": "rapid-acting",
+              "insulin_units": 1034.4630500361468,
+              "lean_mass_g": 17.57678578396433,
+              "measurement_time": "2024-02-17T22:25:07.838000+00:00",
+              "muscle_mass_g": 25.901382596863748,
+              "skin_fold_mm": 44.480027206155185,
+              "urine_color": null,
+              "user_notes": null,
+              "water_percentage": 85.09021539388404,
+              "weight_kg": 53.93793802706432
+            },
+            {
+              "BMI": 29.32184802256195,
+              "BMR": 879,
+              "RMR": 2141,
+              "bodyfat_percentage": 97.03069842109517,
+              "bone_mass_g": 10.620048563793546,
+              "estimated_fitness_age": 35,
+              "height_cm": 180.24555504140494,
+              "insulin_type": "rapid-acting",
+              "insulin_units": 1797.1610726072902,
+              "lean_mass_g": 21.465492053649914,
+              "measurement_time": "2024-02-17T22:31:07.838000+00:00",
+              "muscle_mass_g": 29.38548559886162,
+              "skin_fold_mm": 16.070620904437614,
+              "urine_color": null,
+              "user_notes": null,
+              "water_percentage": 19.46718165312594,
+              "weight_kg": 71.9324546265536
+            }
+          ]
+        },
+        "metadata": {
+          "end_time": null,
+          "start_time": null
+        },
+        "oxygen_data": {
+          "avg_saturation_percentage": null,
+          "saturation_samples": [],
+          "vo2_samples": [],
+          "vo2max_ml_per_min_per_kg": null
+        },
+        "temperature_data": {
+          "ambient_temperature_samples": [],
+          "body_temperature_samples": [],
+          "skin_temperature_samples": []
+        }
+      }
+    ],
+    "type": "body",
+    "user": {
+      "active": true,
+      "created_at": null,
+      "last_webhook_update": null,
+      "provider": "OURA",
+      "reference_id": "",
+      "scopes": null,
+      "user_id": "073e28f9-6361-4694-ac74-cc84d55e6e3b"
+    }
+  }
