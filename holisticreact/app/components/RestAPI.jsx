@@ -45,6 +45,7 @@ export default function RestAPI() {
   const [start_date, setStartDate] = useState("00-00-0000")
   const [end_date, setEndDate] = useState("00-00-0000")
   const [output, setOutput] = useState()
+  const [food, setFood] = useState()
 
   function isJsonString(str) {
     try {
@@ -72,13 +73,24 @@ export default function RestAPI() {
             fetchUserData(user.userID, start_date, end_date, scope.toLowerCase()).then(out => {
               setOutput(out)});  
           }}>Fetch</button>
+
+          <button className="bg-white px-4 py-2 rounded-full border-2 border-black text-[#008AFF] hover:bg-opacity-70" onClick={async ()=>{
+            setFood({status:"Loading..."});
+            
+            fetch('http://localhost:5000/run-script')
+            .then(response => response.json())
+            .then(data => console.log(data));
+          }}>Get food</button>
+
         </div>
       </>}
   </div>
-  
+
   <div className={(!user.userID && "opacity-[70%]") + " bg-white/20 p-8 rounded-[30px] border-2 border-white flex justify-center items-center flex-col gap-4 w-full h-full"}>
     <pre className="m-2 bg-white border-2 border-black rounded-[20px] w-full h-[300px] overflow-y-scroll max-h-[400px] p-2 max-w-[500px]">
-      {output && ( isJsonString(output) && <JsonView value={JSON.parse(output)} />)}
+      {output && (isJsonString(output) && <JsonView value={JSON.parse(output).data[0]["calories_data"]} />)}
+      {/* {output && isJsonString(output) && JSON.parse(output).data[0]["calories_data"]}
+       */}
     </pre>
   </div>
   </>
@@ -86,6 +98,7 @@ export default function RestAPI() {
   
   )
 }
+// ^^ right above is where the data gets outputted
 
 function SelectScope({ scope, setScope }) {
 
