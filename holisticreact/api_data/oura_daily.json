@@ -1,0 +1,207 @@
+{
+    "data": [
+      {
+        "MET_data": {
+          "MET_samples": [
+            {
+              "level": 14.264409959963595,
+              "timestamp": "2024-02-17T22:01:25.704000+00:00"
+            },
+            {
+              "level": 8.999893861185194,
+              "timestamp": "2024-02-17T22:14:25.704000+00:00"
+            },
+            {
+              "level": 6.8590691831992086,
+              "timestamp": "2024-02-17T22:27:25.704000+00:00"
+            },
+            {
+              "level": 0.21160318645697895,
+              "timestamp": "2024-02-17T22:40:25.704000+00:00"
+            }
+          ],
+          "avg_level": 7.65039860512198,
+          "num_high_intensity_minutes": 27.184559216823665,
+          "num_inactive_minutes": 24.71769112736123,
+          "num_low_intensity_minutes": 41.974087672968636,
+          "num_moderate_intensity_minutes": 6.933767861616001
+        },
+        "active_durations_data": {
+          "activity_levels_samples": [
+            {
+              "activity_level": 1,
+              "timestamp": "2024-02-17T22:01:25.704000+00:00"
+            },
+            {
+              "activity_level": 3,
+              "timestamp": "2024-02-17T22:14:25.704000+00:00"
+            },
+            {
+              "activity_level": 2,
+              "timestamp": "2024-02-17T22:27:25.704000+00:00"
+            },
+            {
+              "activity_level": 4,
+              "timestamp": "2024-02-17T22:40:25.704000+00:00"
+            }
+          ],
+          "activity_seconds": 1472.2901827046815,
+          "inactivity_seconds": 585.0703325605673,
+          "low_intensity_seconds": 1047.5216415848379,
+          "moderate_intensity_seconds": 807.6930504965867,
+          "num_continuous_inactive_periods": null,
+          "rest_seconds": 374.9519856956832,
+          "standing_hours_count": null,
+          "standing_seconds": null,
+          "vigorous_intensity_seconds": 2892.702625693268
+        },
+        "calories_data": {
+          "BMR_calories": null,
+          "calorie_samples": [],
+          "net_activity_calories": 317.74513648724695,
+          "net_intake_calories": null,
+          "total_burned_calories": 1705.5431233301815
+        },
+        "device_data": {
+          "activation_timestamp": null,
+          "data_provided": [],
+          "hardware_version": null,
+          "last_upload_date": null,
+          "manufacturer": null,
+          "name": null,
+          "other_devices": [],
+          "serial_number": null,
+          "software_version": null
+        },
+        "distance_data": {
+          "detailed": {
+            "distance_samples": [],
+            "elevation_samples": [],
+            "floors_climbed_samples": [],
+            "step_samples": []
+          },
+          "distance_meters": 18407.807296169816,
+          "elevation": {
+            "avg_meters": null,
+            "gain_actual_meters": null,
+            "gain_planned_meters": null,
+            "loss_actual_meters": null,
+            "max_meters": null,
+            "min_meters": null
+          },
+          "floors_climbed": null,
+          "steps": 5528,
+          "swimming": {
+            "num_laps": null,
+            "num_strokes": null,
+            "pool_length_meters": null
+          }
+        },
+        "heart_rate_data": {
+          "detailed": {
+            "hr_samples": [
+              {
+                "bpm": 122,
+                "context": 0,
+                "timestamp": "2024-02-17T22:01:25.704000+00:00"
+              },
+              {
+                "bpm": 160,
+                "context": 0,
+                "timestamp": "2024-02-17T22:14:25.704000+00:00"
+              },
+              {
+                "bpm": 113,
+                "context": 0,
+                "timestamp": "2024-02-17T22:27:25.704000+00:00"
+              },
+              {
+                "bpm": 168,
+                "context": 0,
+                "timestamp": "2024-02-17T22:40:25.704000+00:00"
+              }
+            ],
+            "hrv_samples_rmssd": [],
+            "hrv_samples_sdnn": []
+          },
+          "summary": {
+            "avg_hr_bpm": 55.98164247479016,
+            "avg_hrv_rmssd": null,
+            "avg_hrv_sdnn": null,
+            "hr_zone_data": [],
+            "max_hr_bpm": 119.03735790285693,
+            "min_hr_bpm": 65.04178489030618,
+            "resting_hr_bpm": null,
+            "user_max_hr_bpm": null
+          }
+        },
+        "metadata": {
+          "end_time": "2024-02-17T22:50:25.704000+00:00",
+          "start_time": "2024-02-17T22:01:25.704000+00:00",
+          "upload_type": 1
+        },
+        "oxygen_data": {
+          "avg_saturation_percentage": null,
+          "saturation_samples": [],
+          "vo2_samples": [],
+          "vo2max_ml_per_min_per_kg": null
+        },
+        "scores": {
+          "activity": 26,
+          "recovery": 70,
+          "sleep": 35
+        },
+        "strain_data": {
+          "strain_level": null
+        },
+        "stress_data": {
+          "activity_stress_duration_seconds": null,
+          "avg_stress_level": null,
+          "high_stress_duration_seconds": 24.749208264142933,
+          "low_stress_duration_seconds": null,
+          "max_stress_level": null,
+          "medium_stress_duration_seconds": null,
+          "rest_stress_duration_seconds": 12.402159283467801,
+          "samples": [
+            {
+              "level": 2.348523011181851,
+              "timestamp": "2024-02-17T22:01:25.704000+00:00"
+            },
+            {
+              "level": 7.196099405341928,
+              "timestamp": "2024-02-17T22:14:25.704000+00:00"
+            },
+            {
+              "level": 14.508295105932293,
+              "timestamp": "2024-02-17T22:27:25.704000+00:00"
+            },
+            {
+              "level": 2.0764454055544332,
+              "timestamp": "2024-02-17T22:40:25.704000+00:00"
+            }
+          ],
+          "stress_duration_seconds": 1.677032233895996,
+          "stress_rating": null
+        },
+        "tag_data": {
+          "tags": [
+            {
+              "notes": "tag note example 1",
+              "tag_name": "tag_generic_homeoffice",
+              "timestamp": "2024-02-18T19:33:25.704000+00:00"
+            }
+          ]
+        }
+      }
+    ],
+    "type": "daily",
+    "user": {
+      "active": true,
+      "created_at": null,
+      "last_webhook_update": null,
+      "provider": "OURA",
+      "reference_id": "",
+      "scopes": null,
+      "user_id": "f613150f-9a8f-4c32-bf97-8e2f17152c7a"
+    }
+  }

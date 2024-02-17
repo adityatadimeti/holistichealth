@@ -1,0 +1,285 @@
+{
+    "data": [
+      {
+        "device_data": {
+          "activation_timestamp": null,
+          "data_provided": [],
+          "hardware_version": null,
+          "last_upload_date": null,
+          "manufacturer": null,
+          "name": null,
+          "other_devices": [],
+          "serial_number": null,
+          "software_version": null
+        },
+        "heart_rate_data": {
+          "detailed": {
+            "hr_samples": [
+              {
+                "bpm": 165,
+                "context": 0,
+                "timestamp": "2024-02-17T21:49:10.314000+00:00"
+              },
+              {
+                "bpm": 82,
+                "context": 0,
+                "timestamp": "2024-02-17T22:01:10.314000+00:00"
+              },
+              {
+                "bpm": 60,
+                "context": 0,
+                "timestamp": "2024-02-17T22:13:10.314000+00:00"
+              },
+              {
+                "bpm": 79,
+                "context": 0,
+                "timestamp": "2024-02-17T22:25:10.314000+00:00"
+              },
+              {
+                "bpm": 69,
+                "context": 0,
+                "timestamp": "2024-02-17T22:37:10.314000+00:00"
+              },
+              {
+                "bpm": 129,
+                "context": 0,
+                "timestamp": "2024-02-17T22:49:10.314000+00:00"
+              },
+              {
+                "bpm": 125,
+                "context": 0,
+                "timestamp": "2024-02-17T23:01:10.314000+00:00"
+              },
+              {
+                "bpm": 82,
+                "context": 0,
+                "timestamp": "2024-02-17T23:13:10.314000+00:00"
+              }
+            ],
+            "hrv_samples_rmssd": [],
+            "hrv_samples_sdnn": []
+          },
+          "summary": {
+            "avg_hr_bpm": 55,
+            "avg_hrv_rmssd": null,
+            "avg_hrv_sdnn": null,
+            "max_hr_bpm": 53,
+            "min_hr_bpm": 79,
+            "resting_hr_bpm": 42,
+            "user_max_hr_bpm": null
+          }
+        },
+        "metadata": {
+          "end_time": "2024-02-18T05:13:10.314000+00:00",
+          "is_nap": false,
+          "start_time": "2024-02-17T21:49:10.314000+00:00",
+          "upload_type": 0
+        },
+        "readiness_data": {
+          "readiness": null,
+          "recovery_level": 0
+        },
+        "respiration_data": {
+          "breaths_data": {
+            "avg_breaths_per_min": null,
+            "end_time": "2024-02-17T23:13:10.314000+00:00",
+            "max_breaths_per_min": null,
+            "min_breaths_per_min": null,
+            "on_demand_reading": null,
+            "samples": [
+              {
+                "breaths_per_min": 15,
+                "timestamp": "2024-02-17T21:49:10.314000+00:00"
+              },
+              {
+                "breaths_per_min": 10,
+                "timestamp": "2024-02-17T22:01:10.314000+00:00"
+              },
+              {
+                "breaths_per_min": 10,
+                "timestamp": "2024-02-17T22:13:10.314000+00:00"
+              },
+              {
+                "breaths_per_min": 15,
+                "timestamp": "2024-02-17T22:25:10.314000+00:00"
+              },
+              {
+                "breaths_per_min": 14,
+                "timestamp": "2024-02-17T22:37:10.314000+00:00"
+              },
+              {
+                "breaths_per_min": 10,
+                "timestamp": "2024-02-17T22:49:10.314000+00:00"
+              },
+              {
+                "breaths_per_min": 14,
+                "timestamp": "2024-02-17T23:01:10.314000+00:00"
+              },
+              {
+                "breaths_per_min": 10,
+                "timestamp": "2024-02-17T23:13:10.314000+00:00"
+              }
+            ],
+            "start_time": "2024-02-17T23:13:10.314000+00:00"
+          },
+          "oxygen_saturation_data": {
+            "avg_saturation_percentage": null,
+            "end_time": "2024-02-17T23:13:10.314000+00:00",
+            "samples": [
+              {
+                "percentage": 92,
+                "timestamp": "2024-02-17T21:49:10.314000+00:00",
+                "type": 0
+              },
+              {
+                "percentage": 99,
+                "timestamp": "2024-02-17T22:01:10.314000+00:00",
+                "type": 0
+              },
+              {
+                "percentage": 99,
+                "timestamp": "2024-02-17T22:13:10.314000+00:00",
+                "type": 0
+              },
+              {
+                "percentage": 92,
+                "timestamp": "2024-02-17T22:25:10.314000+00:00",
+                "type": 0
+              },
+              {
+                "percentage": 95,
+                "timestamp": "2024-02-17T22:37:10.314000+00:00",
+                "type": 0
+              },
+              {
+                "percentage": 98,
+                "timestamp": "2024-02-17T22:49:10.314000+00:00",
+                "type": 0
+              },
+              {
+                "percentage": 99,
+                "timestamp": "2024-02-17T23:01:10.314000+00:00",
+                "type": 0
+              },
+              {
+                "percentage": 94,
+                "timestamp": "2024-02-17T23:13:10.314000+00:00",
+                "type": 0
+              }
+            ],
+            "start_time": "2024-02-17T23:13:10.314000+00:00"
+          },
+          "snoring_data": {
+            "end_time": "2024-02-17T23:13:10.314000+00:00",
+            "num_snoring_events": null,
+            "samples": [
+              {
+                "duration_seconds": 31,
+                "timestamp": "2024-02-17T21:49:10.314000+00:00"
+              },
+              {
+                "duration_seconds": 2,
+                "timestamp": "2024-02-17T22:01:10.314000+00:00"
+              },
+              {
+                "duration_seconds": 68,
+                "timestamp": "2024-02-17T22:13:10.314000+00:00"
+              },
+              {
+                "duration_seconds": 83,
+                "timestamp": "2024-02-17T22:25:10.314000+00:00"
+              },
+              {
+                "duration_seconds": 73,
+                "timestamp": "2024-02-17T22:37:10.314000+00:00"
+              },
+              {
+                "duration_seconds": 59,
+                "timestamp": "2024-02-17T22:49:10.314000+00:00"
+              },
+              {
+                "duration_seconds": 47,
+                "timestamp": "2024-02-17T23:01:10.314000+00:00"
+              },
+              {
+                "duration_seconds": 77,
+                "timestamp": "2024-02-17T23:13:10.314000+00:00"
+              }
+            ],
+            "start_time": "2024-02-17T23:13:10.314000+00:00",
+            "total_snoring_duration_seconds": null
+          }
+        },
+        "sleep_durations_data": {
+          "asleep": {
+            "duration_REM_sleep_state_seconds": 287.40717008721,
+            "duration_asleep_state_seconds": 309.624148936052,
+            "duration_deep_sleep_state_seconds": 100.50187488557611,
+            "duration_light_sleep_state_seconds": 85.31876603123563,
+            "num_REM_events": 4
+          },
+          "awake": {
+            "duration_awake_state_seconds": 48.92000150152892,
+            "duration_long_interruption_seconds": null,
+            "duration_short_interruption_seconds": null,
+            "num_out_of_bed_events": 0,
+            "num_wakeup_events": 14,
+            "sleep_latency_seconds": 148.10815207936875,
+            "wake_up_latency_seconds": 26.401101147580352
+          },
+          "hypnogram_samples": [
+            {
+              "level": 2,
+              "timestamp": "2024-02-17T21:49:10.314000+00:00"
+            },
+            {
+              "level": 3,
+              "timestamp": "2024-02-17T22:01:10.314000+00:00"
+            },
+            {
+              "level": 2,
+              "timestamp": "2024-02-17T22:13:10.314000+00:00"
+            },
+            {
+              "level": 5,
+              "timestamp": "2024-02-17T22:25:10.314000+00:00"
+            },
+            {
+              "level": 1,
+              "timestamp": "2024-02-17T22:37:10.314000+00:00"
+            },
+            {
+              "level": 6,
+              "timestamp": "2024-02-17T22:49:10.314000+00:00"
+            },
+            {
+              "level": 2,
+              "timestamp": "2024-02-17T23:01:10.314000+00:00"
+            },
+            {
+              "level": 1,
+              "timestamp": "2024-02-17T23:13:10.314000+00:00"
+            }
+          ],
+          "other": {
+            "duration_in_bed_seconds": 55.700362650884465,
+            "duration_unmeasurable_sleep_seconds": 67.42110941572831
+          },
+          "sleep_efficiency": 95.67166725535647
+        },
+        "temperature_data": {
+          "delta": null
+        }
+      }
+    ],
+    "type": "sleep",
+    "user": {
+      "active": true,
+      "created_at": null,
+      "last_webhook_update": null,
+      "provider": "GOOGLE",
+      "reference_id": "",
+      "scopes": null,
+      "user_id": "d78969c8-78b1-4d51-96e2-0dedbaeef637"
+    }
+  }

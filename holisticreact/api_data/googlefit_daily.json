@@ -1,0 +1,302 @@
+{
+    "data": [
+      {
+        "MET_data": {
+          "MET_samples": [],
+          "avg_level": null,
+          "num_high_intensity_minutes": null,
+          "num_inactive_minutes": null,
+          "num_low_intensity_minutes": null,
+          "num_moderate_intensity_minutes": null
+        },
+        "active_durations_data": {
+          "activity_levels_samples": [],
+          "activity_seconds": 3602.7230887419532,
+          "inactivity_seconds": null,
+          "low_intensity_seconds": null,
+          "moderate_intensity_seconds": null,
+          "num_continuous_inactive_periods": null,
+          "rest_seconds": null,
+          "standing_hours_count": null,
+          "standing_seconds": null,
+          "vigorous_intensity_seconds": null
+        },
+        "calories_data": {
+          "BMR_calories": 1810.0185735204054,
+          "calorie_samples": [],
+          "net_activity_calories": null,
+          "net_intake_calories": null,
+          "total_burned_calories": 1888.2533850250688
+        },
+        "device_data": {
+          "activation_timestamp": null,
+          "data_provided": [],
+          "hardware_version": null,
+          "last_upload_date": null,
+          "manufacturer": null,
+          "name": null,
+          "other_devices": [],
+          "serial_number": null,
+          "software_version": null
+        },
+        "distance_data": {
+          "detailed": {
+            "distance_samples": [
+              {
+                "distance_meters": 39.313949411168295,
+                "timer_duration_seconds": 0,
+                "timestamp": "2024-02-17T21:48:31.928000+00:00"
+              },
+              {
+                "distance_meters": 98.83257221143711,
+                "timer_duration_seconds": 12,
+                "timestamp": "2024-02-17T22:00:31.928000+00:00"
+              },
+              {
+                "distance_meters": 143.50224121660668,
+                "timer_duration_seconds": 24,
+                "timestamp": "2024-02-17T22:12:31.928000+00:00"
+              },
+              {
+                "distance_meters": 180.8087363812565,
+                "timer_duration_seconds": 36,
+                "timestamp": "2024-02-17T22:24:31.928000+00:00"
+              },
+              {
+                "distance_meters": 218.6740700797447,
+                "timer_duration_seconds": 48,
+                "timestamp": "2024-02-17T22:36:31.928000+00:00"
+              },
+              {
+                "distance_meters": 256.6152854999043,
+                "timer_duration_seconds": 60,
+                "timestamp": "2024-02-17T22:48:31.928000+00:00"
+              },
+              {
+                "distance_meters": 266.9120764253287,
+                "timer_duration_seconds": 72,
+                "timestamp": "2024-02-17T23:00:31.928000+00:00"
+              }
+            ],
+            "elevation_samples": [],
+            "floors_climbed_samples": [],
+            "step_samples": [
+              {
+                "steps": 47,
+                "timer_duration_seconds": 0,
+                "timestamp": "2024-02-17T21:48:31.928000+00:00"
+              },
+              {
+                "steps": 480,
+                "timer_duration_seconds": 12,
+                "timestamp": "2024-02-17T22:00:31.928000+00:00"
+              },
+              {
+                "steps": 910,
+                "timer_duration_seconds": 24,
+                "timestamp": "2024-02-17T22:12:31.928000+00:00"
+              },
+              {
+                "steps": 1379,
+                "timer_duration_seconds": 36,
+                "timestamp": "2024-02-17T22:24:31.928000+00:00"
+              },
+              {
+                "steps": 1827,
+                "timer_duration_seconds": 48,
+                "timestamp": "2024-02-17T22:36:31.928000+00:00"
+              },
+              {
+                "steps": 1918,
+                "timer_duration_seconds": 60,
+                "timestamp": "2024-02-17T22:48:31.928000+00:00"
+              },
+              {
+                "steps": 2092,
+                "timer_duration_seconds": 72,
+                "timestamp": "2024-02-17T23:00:31.928000+00:00"
+              }
+            ]
+          },
+          "distance_meters": 793.3571807243189,
+          "elevation": {
+            "avg_meters": null,
+            "gain_actual_meters": null,
+            "gain_planned_meters": null,
+            "loss_actual_meters": null,
+            "max_meters": null,
+            "min_meters": null
+          },
+          "floors_climbed": null,
+          "steps": 9298,
+          "swimming": {
+            "num_laps": null,
+            "num_strokes": null,
+            "pool_length_meters": null
+          }
+        },
+        "heart_rate_data": {
+          "detailed": {
+            "hr_samples": [
+              {
+                "bpm": 119,
+                "context": 0,
+                "timestamp": "2024-02-17T21:48:31.928000+00:00"
+              },
+              {
+                "bpm": 127,
+                "context": 0,
+                "timestamp": "2024-02-17T22:00:31.928000+00:00"
+              },
+              {
+                "bpm": 81,
+                "context": 0,
+                "timestamp": "2024-02-17T22:12:31.928000+00:00"
+              },
+              {
+                "bpm": 153,
+                "context": 0,
+                "timestamp": "2024-02-17T22:24:31.928000+00:00"
+              },
+              {
+                "bpm": 91,
+                "context": 0,
+                "timestamp": "2024-02-17T22:36:31.928000+00:00"
+              },
+              {
+                "bpm": 101,
+                "context": 0,
+                "timestamp": "2024-02-17T22:48:31.928000+00:00"
+              },
+              {
+                "bpm": 85,
+                "context": 0,
+                "timestamp": "2024-02-17T23:00:31.928000+00:00"
+              }
+            ],
+            "hrv_samples_rmssd": [],
+            "hrv_samples_sdnn": []
+          },
+          "summary": {
+            "avg_hr_bpm": 103.9175007636464,
+            "avg_hrv_rmssd": null,
+            "avg_hrv_sdnn": null,
+            "hr_zone_data": [],
+            "max_hr_bpm": 142.30850287714097,
+            "min_hr_bpm": 101.47918515329212,
+            "resting_hr_bpm": 59.870924666537846,
+            "user_max_hr_bpm": null
+          }
+        },
+        "metadata": {
+          "end_time": "2024-02-17T23:02:31.928000+00:00",
+          "start_time": "2024-02-17T21:48:31.928000+00:00",
+          "upload_type": 1
+        },
+        "oxygen_data": {
+          "avg_saturation_percentage": 89.86554958774433,
+          "saturation_samples": [
+            {
+              "percentage": 87.11192025358154,
+              "timestamp": "2024-02-17T21:48:31.928000+00:00",
+              "type": 0
+            },
+            {
+              "percentage": 91.99400625081884,
+              "timestamp": "2024-02-17T22:00:31.928000+00:00",
+              "type": 0
+            },
+            {
+              "percentage": 89.52580445164764,
+              "timestamp": "2024-02-17T22:12:31.928000+00:00",
+              "type": 0
+            },
+            {
+              "percentage": 91.09533501002349,
+              "timestamp": "2024-02-17T22:24:31.928000+00:00",
+              "type": 0
+            },
+            {
+              "percentage": 94.49145986165306,
+              "timestamp": "2024-02-17T22:36:31.928000+00:00",
+              "type": 0
+            },
+            {
+              "percentage": 94.43944206549976,
+              "timestamp": "2024-02-17T22:48:31.928000+00:00",
+              "type": 0
+            },
+            {
+              "percentage": 80.40087922098591,
+              "timestamp": "2024-02-17T23:00:31.928000+00:00",
+              "type": 0
+            }
+          ],
+          "vo2_samples": [],
+          "vo2max_ml_per_min_per_kg": null
+        },
+        "scores": {
+          "activity": null,
+          "recovery": null,
+          "sleep": null
+        },
+        "strain_data": {
+          "strain_level": null
+        },
+        "stress_data": {
+          "activity_stress_duration_seconds": null,
+          "avg_stress_level": null,
+          "high_stress_duration_seconds": null,
+          "low_stress_duration_seconds": null,
+          "max_stress_level": null,
+          "medium_stress_duration_seconds": null,
+          "rest_stress_duration_seconds": null,
+          "samples": [
+            {
+              "level": 4.100267591726453,
+              "timestamp": "2024-02-17T21:48:31.928000+00:00"
+            },
+            {
+              "level": 5.699645644748152,
+              "timestamp": "2024-02-17T22:00:31.928000+00:00"
+            },
+            {
+              "level": 11.62485481375153,
+              "timestamp": "2024-02-17T22:12:31.928000+00:00"
+            },
+            {
+              "level": 4.955482475978538,
+              "timestamp": "2024-02-17T22:24:31.928000+00:00"
+            },
+            {
+              "level": 9.4392287676997,
+              "timestamp": "2024-02-17T22:36:31.928000+00:00"
+            },
+            {
+              "level": 9.779538296291516,
+              "timestamp": "2024-02-17T22:48:31.928000+00:00"
+            },
+            {
+              "level": 5.264857602781246,
+              "timestamp": "2024-02-17T23:00:31.928000+00:00"
+            }
+          ],
+          "stress_duration_seconds": null,
+          "stress_rating": null
+        },
+        "tag_data": {
+          "tags": []
+        }
+      }
+    ],
+    "type": "daily",
+    "user": {
+      "active": true,
+      "created_at": null,
+      "last_webhook_update": null,
+      "provider": "GOOGLE",
+      "reference_id": "",
+      "scopes": null,
+      "user_id": "4103f559-3bcf-46bc-bb5c-b6f336f9ba50"
+    }
+  }

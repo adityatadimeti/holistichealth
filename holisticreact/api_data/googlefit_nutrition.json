@@ -1,0 +1,88 @@
+{
+    "data": [
+      {
+        "drink_samples": [],
+        "meals": [],
+        "metadata": {
+          "end_time": "2024-02-17T22:58:51.565000+00:00",
+          "start_time": "2024-02-17T21:48:51.565000+00:00"
+        },
+        "summary": {
+          "drink_ml": null,
+          "macros": {
+            "alcohol_g": null,
+            "calories": 2014,
+            "carbohydrates_g": 281.88417418446267,
+            "cholesterol_mg": 117.91286068888498,
+            "fat_g": 32.79704770778258,
+            "fiber_g": 76.72603283748342,
+            "net_carbohydrates_g": null,
+            "protein_g": 53.847914565587715,
+            "saturated_fat_g": 66.1075567976559,
+            "sodium_mg": 1566.8554893311034,
+            "sugar_g": 51.03824597213692,
+            "trans_fat_g": null
+          },
+          "micros": {
+            "biotin_mg": null,
+            "caffeine_mg": null,
+            "calcium_mg": null,
+            "chloride_mg": null,
+            "chromium_mg": null,
+            "copper_mg": null,
+            "cystine_g": null,
+            "folate_mg": null,
+            "folic_acid_mg": null,
+            "histidine_g": null,
+            "iodine_mg": null,
+            "iron_mg": null,
+            "isoleucine_g": null,
+            "leucine_g": null,
+            "lysine_g": null,
+            "magnesium_mg": null,
+            "manganese_mg": null,
+            "methionine_g": null,
+            "molybdenum_mg": null,
+            "monounsaturated_fat_g": null,
+            "niacin_mg": null,
+            "omega3_g": null,
+            "omega6_g": null,
+            "pantothenic_acid_mg": null,
+            "phenylalanine_g": null,
+            "phosphorus_mg": null,
+            "polyunsaturated_fat_g": null,
+            "potassium_mg": 621.8032559653192,
+            "riboflavin_mg": null,
+            "selenium_mg": null,
+            "starch_g": null,
+            "thiamin_mg": null,
+            "threonine_g": null,
+            "tryptophan_g": null,
+            "tyrosine_g": null,
+            "valine_g": null,
+            "vitamin_A_mg": null,
+            "vitamin_B12_mg": null,
+            "vitamin_B6_mg": null,
+            "vitamin_C_mg": null,
+            "vitamin_D2_mg": null,
+            "vitamin_D3_mg": null,
+            "vitamin_D_mg": null,
+            "vitamin_E_mg": null,
+            "vitamin_K_mg": null,
+            "zinc_mg": null
+          },
+          "water_ml": 1720
+        }
+      }
+    ],
+    "type": "nutrition",
+    "user": {
+      "active": true,
+      "created_at": null,
+      "last_webhook_update": null,
+      "provider": "GOOGLE",
+      "reference_id": "",
+      "scopes": null,
+      "user_id": "71669adc-90be-4f1c-9312-aadac3771fb4"
+    }
+  }

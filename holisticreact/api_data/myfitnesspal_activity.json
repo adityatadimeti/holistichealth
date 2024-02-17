@@ -1,0 +1,162 @@
+{
+    "data": [
+      {
+        "MET_data": {
+          "MET_samples": [],
+          "avg_level": 2.9235334344261887,
+          "num_high_intensity_minutes": null,
+          "num_inactive_minutes": null,
+          "num_low_intensity_minutes": null,
+          "num_moderate_intensity_minutes": null
+        },
+        "TSS_data": {
+          "TSS_samples": []
+        },
+        "active_durations_data": {
+          "activity_levels_samples": [],
+          "activity_seconds": 495.7255473317911,
+          "inactivity_seconds": null,
+          "low_intensity_seconds": null,
+          "moderate_intensity_seconds": null,
+          "num_continuous_inactive_periods": null,
+          "rest_seconds": null,
+          "standing_hours_count": null,
+          "standing_seconds": null,
+          "vigorous_intensity_seconds": null
+        },
+        "calories_data": {
+          "BMR_calories": null,
+          "calorie_samples": [],
+          "net_activity_calories": null,
+          "net_intake_calories": null,
+          "total_burned_calories": 1885.4867201709685
+        },
+        "cheat_detection": null,
+        "device_data": {
+          "activation_timestamp": null,
+          "data_provided": [],
+          "hardware_version": null,
+          "last_upload_date": null,
+          "manufacturer": null,
+          "name": "Random device name",
+          "other_devices": [],
+          "serial_number": null,
+          "software_version": null
+        },
+        "distance_data": {
+          "detailed": {
+            "distance_samples": [],
+            "elevation_samples": [],
+            "floors_climbed_samples": [],
+            "step_samples": []
+          },
+          "summary": {
+            "distance_meters": 207.7023485577668,
+            "elevation": {
+              "avg_meters": null,
+              "gain_actual_meters": 87.06869964529552,
+              "gain_planned_meters": null,
+              "loss_actual_meters": null,
+              "max_meters": null,
+              "min_meters": null
+            },
+            "floors_climbed": null,
+            "steps": null,
+            "swimming": {
+              "num_laps": null,
+              "num_strokes": null,
+              "pool_length_meters": null
+            }
+          }
+        },
+        "energy_data": {
+          "energy_kilojoules": null,
+          "energy_planned_kilojoules": null
+        },
+        "heart_rate_data": {
+          "detailed": {
+            "hr_samples": [],
+            "hrv_samples_rmssd": [],
+            "hrv_samples_sdnn": []
+          },
+          "summary": {
+            "avg_hr_bpm": 122.69341631704287,
+            "avg_hrv_rmssd": null,
+            "avg_hrv_sdnn": null,
+            "hr_zone_data": [],
+            "max_hr_bpm": 117.79393359101836,
+            "min_hr_bpm": null,
+            "resting_hr_bpm": null,
+            "user_max_hr_bpm": null
+          }
+        },
+        "lap_data": {
+          "laps": []
+        },
+        "metadata": {
+          "city": null,
+          "country": null,
+          "end_time": "2024-02-17T22:36:38.410000+00:00",
+          "name": "Wheelchair Pushing",
+          "start_time": "2024-02-17T21:49:38.410000+00:00",
+          "state": null,
+          "summary_id": "64032299912",
+          "type": 116,
+          "upload_type": 0
+        },
+        "movement_data": {
+          "adjusted_max_speed_meters_per_second": null,
+          "avg_cadence_rpm": null,
+          "avg_pace_minutes_per_kilometer": null,
+          "avg_speed_meters_per_second": null,
+          "avg_torque_newton_meters": null,
+          "avg_velocity_meters_per_second": null,
+          "cadence_samples": [],
+          "max_cadence_rpm": null,
+          "max_pace_minutes_per_kilometer": null,
+          "max_speed_meters_per_second": 4.044721788129739,
+          "max_torque_newton_meters": null,
+          "max_velocity_meters_per_second": null,
+          "normalized_speed_meters_per_second": null,
+          "speed_samples": [],
+          "torque_samples": []
+        },
+        "oxygen_data": {
+          "avg_saturation_percentage": null,
+          "saturation_samples": [],
+          "vo2_samples": [],
+          "vo2max_ml_per_min_per_kg": null
+        },
+        "polyline_map_data": {
+          "summary_polyline": null
+        },
+        "position_data": {
+          "center_pos_lat_lng_deg": [],
+          "end_pos_lat_lng_deg": [],
+          "position_samples": [],
+          "start_pos_lat_lng_deg": []
+        },
+        "power_data": {
+          "avg_watts": null,
+          "max_watts": null,
+          "power_samples": []
+        },
+        "strain_data": {
+          "strain_level": null
+        },
+        "work_data": {
+          "work_kilojoules": null
+        }
+      }
+    ],
+    "type": "activity",
+    "user": {
+      "active": true,
+      "created_at": null,
+      "last_webhook_update": null,
+      "provider": "MYFITNESSPAL",
+      "reference_id": "",
+      "scopes": null,
+      "user_id": "956f8163-96b5-44bf-9c39-5b228eef7d72"
+    }
+  }
