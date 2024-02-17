@@ -1,0 +1,145 @@
+{
+    "data": [
+      {
+        "MET_data": {
+          "MET_samples": [],
+          "avg_level": null,
+          "num_high_intensity_minutes": null,
+          "num_inactive_minutes": null,
+          "num_low_intensity_minutes": null,
+          "num_moderate_intensity_minutes": null
+        },
+        "active_durations_data": {
+          "activity_levels_samples": [],
+          "activity_seconds": null,
+          "inactivity_seconds": null,
+          "low_intensity_seconds": null,
+          "moderate_intensity_seconds": null,
+          "num_continuous_inactive_periods": null,
+          "rest_seconds": null,
+          "standing_hours_count": null,
+          "standing_seconds": null,
+          "vigorous_intensity_seconds": null
+        },
+        "calories_data": {
+          "BMR_calories": null,
+          "calorie_samples": [],
+          "net_activity_calories": null,
+          "net_intake_calories": null,
+          "total_burned_calories": null
+        },
+        "device_data": {
+          "activation_timestamp": null,
+          "data_provided": [],
+          "hardware_version": null,
+          "last_upload_date": null,
+          "manufacturer": null,
+          "name": null,
+          "other_devices": [],
+          "serial_number": null,
+          "software_version": null
+        },
+        "distance_data": {
+          "detailed": {
+            "distance_samples": [],
+            "elevation_samples": [],
+            "floors_climbed_samples": [],
+            "step_samples": []
+          },
+          "distance_meters": null,
+          "elevation": {
+            "avg_meters": null,
+            "gain_actual_meters": null,
+            "gain_planned_meters": null,
+            "loss_actual_meters": null,
+            "max_meters": null,
+            "min_meters": null
+          },
+          "floors_climbed": null,
+          "steps": null,
+          "swimming": {
+            "num_laps": null,
+            "num_strokes": null,
+            "pool_length_meters": null
+          }
+        },
+        "heart_rate_data": {
+          "detailed": {
+            "hr_samples": [],
+            "hrv_samples_rmssd": [],
+            "hrv_samples_sdnn": []
+          },
+          "summary": {
+            "avg_hr_bpm": null,
+            "avg_hrv_rmssd": null,
+            "avg_hrv_sdnn": null,
+            "hr_zone_data": [],
+            "max_hr_bpm": null,
+            "min_hr_bpm": null,
+            "resting_hr_bpm": null,
+            "user_max_hr_bpm": null
+          }
+        },
+        "metadata": {
+          "end_time": "2024-02-17T22:51:38.573000+00:00",
+          "start_time": "2024-02-17T21:41:38.573000+00:00",
+          "upload_type": 0
+        },
+        "oxygen_data": {
+          "avg_saturation_percentage": null,
+          "saturation_samples": [],
+          "vo2_samples": [],
+          "vo2max_ml_per_min_per_kg": null
+        },
+        "scores": {
+          "activity": null,
+          "recovery": null,
+          "sleep": null
+        },
+        "strain_data": {
+          "strain_level": null
+        },
+        "stress_data": {
+          "activity_stress_duration_seconds": null,
+          "avg_stress_level": null,
+          "high_stress_duration_seconds": null,
+          "low_stress_duration_seconds": null,
+          "max_stress_level": null,
+          "medium_stress_duration_seconds": null,
+          "rest_stress_duration_seconds": null,
+          "samples": [],
+          "stress_duration_seconds": null,
+          "stress_rating": null
+        },
+        "tag_data": {
+          "tags": [
+            {
+              "notes": "tag note example 1",
+              "tag_name": "tag_generic_hangover",
+              "timestamp": "2024-02-18T21:16:38.573000+00:00"
+            },
+            {
+              "notes": "tag note example 2",
+              "tag_name": "tag_generic_period",
+              "timestamp": "2024-02-17T21:46:38.573000+00:00"
+            },
+            {
+              "notes": "tag note example 3",
+              "tag_name": "tag_generic_hotel",
+              "timestamp": "2024-02-18T19:18:38.573000+00:00"
+            }
+          ]
+        }
+      }
+    ],
+    "type": "daily",
+    "user": {
+      "active": true,
+      "created_at": null,
+      "last_webhook_update": null,
+      "provider": "EIGHT",
+      "reference_id": "",
+      "scopes": null,
+      "user_id": "a2d3f163-c560-4adc-8ba4-16f68557c1ed"
+    }
+  }

@@ -1,0 +1,400 @@
+{
+    "data": [
+      {
+        "MET_data": {
+          "MET_samples": [],
+          "avg_level": null,
+          "num_high_intensity_minutes": null,
+          "num_inactive_minutes": null,
+          "num_low_intensity_minutes": null,
+          "num_moderate_intensity_minutes": null
+        },
+        "TSS_data": {
+          "TSS_samples": []
+        },
+        "active_durations_data": {
+          "activity_levels_samples": [],
+          "activity_seconds": 360.03351213437264,
+          "inactivity_seconds": null,
+          "low_intensity_seconds": null,
+          "moderate_intensity_seconds": null,
+          "num_continuous_inactive_periods": null,
+          "rest_seconds": null,
+          "standing_hours_count": null,
+          "standing_seconds": null,
+          "vigorous_intensity_seconds": null
+        },
+        "calories_data": {
+          "BMR_calories": null,
+          "calorie_samples": [],
+          "net_activity_calories": null,
+          "net_intake_calories": null,
+          "total_burned_calories": 1841.3729499657697
+        },
+        "cheat_detection": null,
+        "device_data": {
+          "activation_timestamp": null,
+          "data_provided": [],
+          "hardware_version": null,
+          "last_upload_date": null,
+          "manufacturer": "Terra",
+          "name": "Random device name",
+          "other_devices": [],
+          "serial_number": null,
+          "software_version": null
+        },
+        "distance_data": {
+          "detailed": {
+            "distance_samples": [
+              {
+                "distance_meters": 0,
+                "timer_duration_seconds": 0,
+                "timestamp": "2024-02-17T21:35:02.695000+00:00"
+              },
+              {
+                "distance_meters": 17.534135829909765,
+                "timer_duration_seconds": 14,
+                "timestamp": "2024-02-17T21:49:02.695000+00:00"
+              },
+              {
+                "distance_meters": 34.794996961996176,
+                "timer_duration_seconds": 28,
+                "timestamp": "2024-02-17T22:03:02.695000+00:00"
+              },
+              {
+                "distance_meters": 91.66560838840593,
+                "timer_duration_seconds": 42,
+                "timestamp": "2024-02-17T22:17:02.695000+00:00"
+              },
+              {
+                "distance_meters": 105.93980757716405,
+                "timer_duration_seconds": 56,
+                "timestamp": "2024-02-17T22:31:02.695000+00:00"
+              },
+              {
+                "distance_meters": 153.54918574491,
+                "timer_duration_seconds": 70,
+                "timestamp": "2024-02-17T22:45:02.695000+00:00"
+              }
+            ],
+            "elevation_samples": [
+              {
+                "elev_meters": 0,
+                "timer_duration_seconds": 0,
+                "timestamp": "2024-02-17T21:35:02.695000+00:00"
+              },
+              {
+                "elev_meters": 36.93385188588501,
+                "timer_duration_seconds": 14,
+                "timestamp": "2024-02-17T21:49:02.695000+00:00"
+              },
+              {
+                "elev_meters": 73.86604102550041,
+                "timer_duration_seconds": 28,
+                "timestamp": "2024-02-17T22:03:02.695000+00:00"
+              },
+              {
+                "elev_meters": 108.60988286023306,
+                "timer_duration_seconds": 42,
+                "timestamp": "2024-02-17T22:17:02.695000+00:00"
+              },
+              {
+                "elev_meters": 130.92922766583058,
+                "timer_duration_seconds": 56,
+                "timestamp": "2024-02-17T22:31:02.695000+00:00"
+              },
+              {
+                "elev_meters": 182.25178678684168,
+                "timer_duration_seconds": 70,
+                "timestamp": "2024-02-17T22:45:02.695000+00:00"
+              }
+            ],
+            "floors_climbed_samples": [],
+            "step_samples": []
+          },
+          "summary": {
+            "distance_meters": 167.78056706477346,
+            "elevation": {
+              "avg_meters": 88.76513170404844,
+              "gain_actual_meters": 182.25178678684168,
+              "gain_planned_meters": null,
+              "loss_actual_meters": 0,
+              "max_meters": 51.02216295309824,
+              "min_meters": 27.058449224063544
+            },
+            "floors_climbed": 22,
+            "steps": 11838,
+            "swimming": {
+              "num_laps": null,
+              "num_strokes": 45,
+              "pool_length_meters": null
+            }
+          }
+        },
+        "energy_data": {
+          "energy_kilojoules": null,
+          "energy_planned_kilojoules": null
+        },
+        "heart_rate_data": {
+          "detailed": {
+            "hr_samples": [
+              {
+                "bpm": 145,
+                "context": 0,
+                "timestamp": "2024-02-17T21:35:02.695000+00:00"
+              },
+              {
+                "bpm": 93,
+                "context": 0,
+                "timestamp": "2024-02-17T21:49:02.695000+00:00"
+              },
+              {
+                "bpm": 61,
+                "context": 0,
+                "timestamp": "2024-02-17T22:03:02.695000+00:00"
+              },
+              {
+                "bpm": 178,
+                "context": 0,
+                "timestamp": "2024-02-17T22:17:02.695000+00:00"
+              },
+              {
+                "bpm": 72,
+                "context": 0,
+                "timestamp": "2024-02-17T22:31:02.695000+00:00"
+              },
+              {
+                "bpm": 132,
+                "context": 0,
+                "timestamp": "2024-02-17T22:45:02.695000+00:00"
+              }
+            ],
+            "hrv_samples_rmssd": [],
+            "hrv_samples_sdnn": [
+              {
+                "hrv_sdnn": 80,
+                "timestamp": "2024-02-17T21:35:02.695000+00:00"
+              },
+              {
+                "hrv_sdnn": 55,
+                "timestamp": "2024-02-17T21:49:02.695000+00:00"
+              },
+              {
+                "hrv_sdnn": 40,
+                "timestamp": "2024-02-17T22:03:02.695000+00:00"
+              },
+              {
+                "hrv_sdnn": 102,
+                "timestamp": "2024-02-17T22:17:02.695000+00:00"
+              },
+              {
+                "hrv_sdnn": 41,
+                "timestamp": "2024-02-17T22:31:02.695000+00:00"
+              },
+              {
+                "hrv_sdnn": 62,
+                "timestamp": "2024-02-17T22:45:02.695000+00:00"
+              }
+            ]
+          },
+          "summary": {
+            "avg_hr_bpm": 116.97413353666681,
+            "avg_hrv_rmssd": null,
+            "avg_hrv_sdnn": 38.55461348448848,
+            "hr_zone_data": [],
+            "max_hr_bpm": 119.48881900941157,
+            "min_hr_bpm": 98.13161609134386,
+            "resting_hr_bpm": null,
+            "user_max_hr_bpm": null
+          }
+        },
+        "lap_data": {
+          "laps": []
+        },
+        "metadata": {
+          "city": null,
+          "country": null,
+          "end_time": "2024-02-17T22:54:02.695000+00:00",
+          "name": "Baseball",
+          "start_time": "2024-02-17T21:35:02.695000+00:00",
+          "state": null,
+          "summary_id": "219300682233",
+          "type": 114,
+          "upload_type": 2
+        },
+        "movement_data": {
+          "adjusted_max_speed_meters_per_second": null,
+          "avg_cadence_rpm": 26.032885182563433,
+          "avg_pace_minutes_per_kilometer": null,
+          "avg_speed_meters_per_second": 7.4337849080052205,
+          "avg_torque_newton_meters": null,
+          "avg_velocity_meters_per_second": null,
+          "cadence_samples": [],
+          "max_cadence_rpm": 20.48775362399544,
+          "max_pace_minutes_per_kilometer": null,
+          "max_speed_meters_per_second": 9.95115401306273,
+          "max_torque_newton_meters": null,
+          "max_velocity_meters_per_second": null,
+          "normalized_speed_meters_per_second": null,
+          "speed_samples": [
+            {
+              "speed_meters_per_second": 5.716657966576424,
+              "timer_duration_seconds": null,
+              "timestamp": "2024-02-17T21:35:02.695000+00:00"
+            },
+            {
+              "speed_meters_per_second": 5.4261186194905,
+              "timer_duration_seconds": null,
+              "timestamp": "2024-02-17T21:49:02.695000+00:00"
+            },
+            {
+              "speed_meters_per_second": 10.471569548943924,
+              "timer_duration_seconds": null,
+              "timestamp": "2024-02-17T22:03:02.695000+00:00"
+            },
+            {
+              "speed_meters_per_second": 14.55629719908376,
+              "timer_duration_seconds": null,
+              "timestamp": "2024-02-17T22:17:02.695000+00:00"
+            },
+            {
+              "speed_meters_per_second": 12.938065662819715,
+              "timer_duration_seconds": null,
+              "timestamp": "2024-02-17T22:31:02.695000+00:00"
+            },
+            {
+              "speed_meters_per_second": 9.62454042261035,
+              "timer_duration_seconds": null,
+              "timestamp": "2024-02-17T22:45:02.695000+00:00"
+            }
+          ],
+          "torque_samples": []
+        },
+        "oxygen_data": {
+          "avg_saturation_percentage": null,
+          "saturation_samples": [],
+          "vo2_samples": [],
+          "vo2max_ml_per_min_per_kg": null
+        },
+        "polyline_map_data": {
+          "summary_polyline": null
+        },
+        "position_data": {
+          "center_pos_lat_lng_deg": [
+            52.61225082203158,
+            0.9030115707570281
+          ],
+          "end_pos_lat_lng_deg": [
+            52.16696607089694,
+            1.1860314158660674
+          ],
+          "position_samples": [
+            {
+              "coords_lat_lng_deg": [
+                52.69888154286865,
+                0.6378947015375617
+              ],
+              "timer_duration_seconds": 0,
+              "timestamp": "2024-02-17T21:35:02.695000+00:00"
+            },
+            {
+              "coords_lat_lng_deg": [
+                52.780618446111724,
+                0.9940207767126421
+              ],
+              "timer_duration_seconds": 14,
+              "timestamp": "2024-02-17T21:49:02.695000+00:00"
+            },
+            {
+              "coords_lat_lng_deg": [
+                52.63788549116443,
+                1.0627880357716872
+              ],
+              "timer_duration_seconds": 28,
+              "timestamp": "2024-02-17T22:03:02.695000+00:00"
+            },
+            {
+              "coords_lat_lng_deg": [
+                52.61225082203158,
+                0.9030115707570281
+              ],
+              "timer_duration_seconds": 42,
+              "timestamp": "2024-02-17T22:17:02.695000+00:00"
+            },
+            {
+              "coords_lat_lng_deg": [
+                52.645381458622886,
+                1.118553508577713
+              ],
+              "timer_duration_seconds": 56,
+              "timestamp": "2024-02-17T22:31:02.695000+00:00"
+            },
+            {
+              "coords_lat_lng_deg": [
+                52.60601288809449,
+                0.6705163371648927
+              ],
+              "timer_duration_seconds": 70,
+              "timestamp": "2024-02-17T22:45:02.695000+00:00"
+            }
+          ],
+          "start_pos_lat_lng_deg": [
+            52.71723629937028,
+            1.2406667657442696
+          ]
+        },
+        "power_data": {
+          "avg_watts": 30.418112727156515,
+          "max_watts": 41.099109943064676,
+          "power_samples": [
+            {
+              "timer_duration_seconds": 0,
+              "timestamp": "2024-02-17T21:35:02.695000+00:00",
+              "watts": 20.630652335070035
+            },
+            {
+              "timer_duration_seconds": 14,
+              "timestamp": "2024-02-17T21:49:02.695000+00:00",
+              "watts": 51.61426872844662
+            },
+            {
+              "timer_duration_seconds": 28,
+              "timestamp": "2024-02-17T22:03:02.695000+00:00",
+              "watts": 51.26493762235036
+            },
+            {
+              "timer_duration_seconds": 42,
+              "timestamp": "2024-02-17T22:17:02.695000+00:00",
+              "watts": 17.792921781235922
+            },
+            {
+              "timer_duration_seconds": 56,
+              "timestamp": "2024-02-17T22:31:02.695000+00:00",
+              "watts": 34.611449444437916
+            },
+            {
+              "timer_duration_seconds": 70,
+              "timestamp": "2024-02-17T22:45:02.695000+00:00",
+              "watts": 32.06342922384377
+            }
+          ]
+        },
+        "strain_data": {
+          "strain_level": null
+        },
+        "work_data": {
+          "work_kilojoules": null
+        }
+      }
+    ],
+    "type": "activity",
+    "user": {
+      "active": true,
+      "created_at": null,
+      "last_webhook_update": null,
+      "provider": "APPLE",
+      "reference_id": "",
+      "scopes": null,
+      "user_id": "38a0c753-5663-4120-b24a-59cf3d75f03c"
+    }
+  }
